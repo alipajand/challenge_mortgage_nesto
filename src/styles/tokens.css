@@ -1,0 +1,73 @@
+:root {
+  --nesto-navy: #212144;
+  --nesto-navy-hover: #34346b;
+  --nesto-blue: #3f68b1;
+  --nesto-blue-dark: #35599a;
+  --nesto-yellow: #ffce09;
+
+  --gray-50: #f5f6fa;
+  --gray-100: #eceef5;
+  --gray-200: #dfe2ec;
+  --gray-400: #8e92ab;
+  --gray-600: #565a78;
+
+  --color-text: var(--nesto-navy);
+  --color-text-muted: var(--gray-600);
+  --color-text-inverse: #ffffff;
+  --color-page: var(--gray-50);
+  --color-surface: #ffffff;
+  --color-border: var(--gray-200);
+  --color-border-strong: var(--gray-400);
+  --color-link: var(--nesto-blue-dark);
+  --color-focus: var(--nesto-blue);
+  --color-focus-ring: rgb(63 104 177 / 0.28);
+  --color-info-surface: #eef3fb;
+  --color-success: #1a7348;
+  --color-success-surface: #e7f5ee;
+  --color-warning: #8a5300;
+  --color-warning-surface: #fff3d6;
+  --color-danger: #b3261e;
+  --color-danger-surface: #fdeceb;
+  --color-danger-ring: rgb(179 38 30 / 0.24);
+
+  --font-sans:
+    'Inter Variable', Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial,
+    sans-serif;
+  --text-xs: 0.75rem;
+  --text-sm: 0.875rem;
+  --text-md: 1rem;
+  --text-lg: 1.125rem;
+  --text-xl: 1.25rem;
+  --text-2xl: 1.5rem;
+  --text-3xl: clamp(1.75rem, 1.35rem + 1.6vw, 2.5rem);
+  --weight-medium: 500;
+  --weight-semibold: 600;
+  --weight-bold: 700;
+  --weight-black: 800;
+
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-5: 1.25rem;
+  --space-6: 1.5rem;
+  --space-8: 2rem;
+  --space-10: 2.5rem;
+  --space-12: 3rem;
+  --space-16: 4rem;
+
+  --radius-sm: 0.375rem;
+  --radius-md: 0.625rem;
+  --radius-lg: 1rem;
+  --radius-pill: 999px;
+  --shadow-sm: 0 1px 2px rgb(33 33 68 / 0.06), 0 1px 3px rgb(33 33 68 / 0.08);
+  --shadow-md: 0 4px 12px rgb(33 33 68 / 0.08), 0 2px 4px rgb(33 33 68 / 0.06);
+  --shadow-lg: 0 12px 32px rgb(33 33 68 / 0.18);
+
+  --duration-fast: 120ms;
+  --duration-base: 200ms;
+  --ease-out: cubic-bezier(0.2, 0.8, 0.2, 1);
+
+  --container-max: 72rem;
+  --page-gutter: clamp(1rem, 0.5rem + 2.5vw, 2rem);
+}

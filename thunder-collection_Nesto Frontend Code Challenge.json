@@ -1,0 +1,147 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "Nesto Frontend Code Challenge",
+    "dateExported": "2021-06-23T12:10:32.253Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "containerId": "",
+            "sortNum": 10000,
+            "headers": [
+                {
+                    "name": "Accept",
+                    "value": "*/*"
+                },
+                {
+                    "name": "User-Agent",
+                    "value": "Thunder Client (https://www.thunderclient.io)"
+                },
+                {
+                    "name": "X-Nesto-Candidat",
+                    "value": "Your Name"
+                }
+            ],
+            "colId": "f60c1f9c-2c3b-4052-a062-98a571856b99",
+            "name": "Get Products",
+            "url": "https://nesto-fe-exam.vercel.app/api/products",
+            "method": "GET",
+            "modified": "2021-06-23T12:00:43.937Z",
+            "created": "2021-06-23T11:59:35.503Z",
+            "_id": "9f797831-83e7-48ae-bd5a-c2fb8334ac9b",
+            "tests": []
+        },
+        {
+            "containerId": "",
+            "sortNum": 20000,
+            "headers": [
+                {
+                    "name": "Accept",
+                    "value": "*/*"
+                },
+                {
+                    "name": "User-Agent",
+                    "value": "Thunder Client (https://www.thunderclient.io)"
+                },
+                {
+                    "name": "X-Nesto-Candidat",
+                    "value": "Your Name"
+                }
+            ],
+            "colId": "f60c1f9c-2c3b-4052-a062-98a571856b99",
+            "name": "Get Applications",
+            "url": "https://nesto-fe-exam.vercel.app/api/applications",
+            "method": "GET",
+            "modified": "2021-06-23T12:02:21.932Z",
+            "created": "2021-06-23T12:01:54.425Z",
+            "_id": "f77a23b7-3017-43d3-b5bb-c93278d9aeb5",
+            "tests": []
+        },
+        {
+            "containerId": "",
+            "sortNum": 30000,
+            "headers": [
+                {
+                    "name": "Accept",
+                    "value": "*/*"
+                },
+                {
+                    "name": "User-Agent",
+                    "value": "Thunder Client (https://www.thunderclient.io)"
+                },
+                {
+                    "name": "X-Nesto-Candidat",
+                    "value": "Your Name"
+                }
+            ],
+            "colId": "f60c1f9c-2c3b-4052-a062-98a571856b99",
+            "name": "Get Single Application",
+            "url": "https://nesto-fe-exam.vercel.app/api/applications/f5b50f8b-a41a-4f14-871a-4b2f4436b740",
+            "method": "GET",
+            "modified": "2021-06-23T12:07:11.840Z",
+            "created": "2021-06-23T12:03:04.921Z",
+            "_id": "e31c5ab3-3048-4068-99b4-2ea84f8a34c7",
+            "tests": []
+        },
+        {
+            "containerId": "",
+            "sortNum": 40000,
+            "headers": [
+                {
+                    "name": "Accept",
+                    "value": "*/*"
+                },
+                {
+                    "name": "User-Agent",
+                    "value": "Thunder Client (https://www.thunderclient.io)"
+                },
+                {
+                    "name": "X-Nesto-Candidat",
+                    "value": "Your Name"
+                }
+            ],
+            "colId": "f60c1f9c-2c3b-4052-a062-98a571856b99",
+            "name": "Create Application",
+            "url": "https://nesto-fe-exam.vercel.app/api/applications",
+            "method": "POST",
+            "modified": "2021-06-23T12:06:30.793Z",
+            "created": "2021-06-23T12:04:52.255Z",
+            "_id": "84b7c8a8-2fc5-4d72-950a-abf05fb2c327",
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"productId\": 12345\n}"
+            },
+            "tests": []
+        },
+        {
+            "containerId": "",
+            "sortNum": 60000,
+            "headers": [
+                {
+                    "name": "Accept",
+                    "value": "*/*"
+                },
+                {
+                    "name": "User-Agent",
+                    "value": "Thunder Client (https://www.thunderclient.io)"
+                },
+                {
+                    "name": "X-Nesto-Candidat",
+                    "value": "Your Name"
+                }
+            ],
+            "colId": "f60c1f9c-2c3b-4052-a062-98a571856b99",
+            "name": "Update Application",
+            "url": "https://nesto-fe-exam.vercel.app/api/applications/f5b50f8b-a41a-4f14-871a-4b2f4436b740",
+            "method": "PUT",
+            "modified": "2021-06-23T12:10:00.996Z",
+            "created": "2021-06-23T12:07:27.030Z",
+            "_id": "9eae67eb-e939-4dde-84fa-8e7457f0fed1",
+            "body": {
+                "type": "json",
+                "raw": "{\n    \"productId\": 12312,\n    \"applicants\": [\n    {\n      \"phone\": \"555-555-5555\",\n      \"email\": \"john@doe.com\",\n      \"firstName\": \"John\",\n      \"lastName\": \"Doe\"\n    }\n  ]\n}"
+            },
+            "tests": []
+        }
+    ]
+}
